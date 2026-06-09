@@ -4,6 +4,8 @@ I accumulated a lot of retro games over the years. Occasionally I would get this
 
 The PriceCharting API enables programmatic analysis of historical sales volume and price fluctuations (also, prices on the website are for end of month only, while API data is updated daily). I’m curious if I can use this data to spot popular games listed below market value and/or predict when the price of some rare game is going to spike up. Sometimes it’s nice to play a retro game and sell it at a higher price after enjoying the nostalgia. I did this with Fire Emblem: Path of Radiance for Gamecube - got it for $130 in 2017, which sounded like a lot, but I sold it last year for $220.
 
+For a bit more context on the use case, check out my [LinkedIn post](https://www.linkedin.com/posts/brandonnohara_100daysofdataengineering-activity-7469646287861100546-hgf6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAA9eWkBW69AgRF58S8MxUBRLcu8ttliYVU).
+
 ## Data Architecture
 ![Data Flow Diagram](data_flow_diagram.png)
 
