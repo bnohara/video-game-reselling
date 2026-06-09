@@ -21,4 +21,6 @@ Notes on the data pipeline using AWS:
 Check out the PriceCharting API documentation for a description of the fields in the CSV files: https://lnkd.in/ggUNTyE5
 
 ## Dashboard Screenshots
-[TODO]
+![CIB game price and sales volume by console](cib_game_price_sales_volume_by_console.jpg)
+
+![Highest value games](highest_value_games.jpg)
