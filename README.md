@@ -1,4 +1,4 @@
-# Data pipeline to pull video game sales data from the PriceCharting API and feed into Power BI
+# Data pipeline to pull video game sales info from the PriceCharting API and feed into Power BI
 ## Use Case
 I accumulated a lot of retro games over the years. Occasionally I would get this urge to declutter and sell some of them on Carousell. I wasn’t sure what the market price was for some of these games, especially rare ones that few people were listing. At some point I stumbled across the PriceCharting website. They use sales data from eBay and their own marketplace to estimate the market value of video games. Using their market prices has been effective when I sell rare games on Carousell.
 
@@ -13,9 +13,12 @@ Notes on the data pipeline using AWS:
 3) Dashboard is designed locally on Power BI Desktop and published to Power BI Cloud.
 4) Data updates from the Athena table are sent to Power BI Cloud via an on-premises data gateway installed on an EC2 instance.
 
-# Files In This Repo
+## Files In This Repo
 * lambda_function.py - Lambda function in Python that extracts data from the PriceCharting API, does some data cleaning, and tells AWS to store the files in S3
 * prices.sql - SQL DDL statement used to create the data table in Athena
 
 ## Data Dictionary
 Check out the PriceCharting API documentation for a description of the fields in the CSV files: https://lnkd.in/ggUNTyE5
+
+## Dashboard Screenshots
+[TODO]
