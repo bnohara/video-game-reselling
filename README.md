@@ -1,4 +1,4 @@
-# Data pipeline to pull video game sales info from the PriceCharting API and feed into Power BI
+# Data pipeline for video game reselling insights
 ## Use Case
 I accumulated a lot of retro games over the years. Occasionally I would get this urge to declutter and sell some of them on Carousell. I wasn’t sure what the market price was for some of these games, especially rare ones that few people were listing. At some point I stumbled across the PriceCharting website. They use sales data from eBay and their own marketplace to estimate the market value of video games. Using their market prices has been effective when I sell rare games on Carousell.
 
